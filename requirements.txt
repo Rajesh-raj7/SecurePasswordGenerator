@@ -1,0 +1,10 @@
+# Secure Password Generator -- dependencies
+#
+# Tkinter, secrets, string, json, csv, and os/pathlib are all part of the
+# Python standard library and do not need to be installed separately.
+# Tkinter ships with most official Python installers; on some Linux
+# distributions you may need: sudo apt install python3-tk
+
+pyperclip>=1.8.2      # clipboard "Copy password" support
+qrcode[pil]>=7.4.2    # QR code generation for passwords (includes Pillow)
+cryptography>=42.0.0  # optional: enables at-rest encryption of history.json

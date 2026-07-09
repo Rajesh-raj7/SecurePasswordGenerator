@@ -1,0 +1,12 @@
+{
+  "length": 33,
+  "use_upper": true,
+  "use_lower": true,
+  "use_digits": true,
+  "use_symbols": true,
+  "exclude_similar": true,
+  "exclude_ambiguous": true,
+  "no_repeat": true,
+  "count": 1,
+  "theme": "light"
+}
